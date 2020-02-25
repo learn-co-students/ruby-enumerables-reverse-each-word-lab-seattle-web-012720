@@ -1,7 +1,7 @@
 def reverse_each_word string
-	boop = string.split(" ")
-	yay = boop.collect do |word|
-		word.reverse
+	separar = string.split(" ")
+	juntar = separar.collect do |palavra|
+		palavra.reverse
 	end
-	yay.join(" ")
+	juntar.join(" ")
 end 
